@@ -8,7 +8,11 @@ var
     monto, operacion, descuento, total: real;
 begin
     ClrScr;
+<<<<<<< HEAD
     gotoxy(10,1); write('Ingrese el monto del articulo: ');
+=======
+    gotoxy(10,1); write('Infrese el monto del articulo: ');
+>>>>>>> b5e9dbd709d5953eecc16a8c92a78708d3938e7e
     read(monto);
     if monto >= 1000 then
         descuento := 0.04
