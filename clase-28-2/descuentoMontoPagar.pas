@@ -16,7 +16,7 @@ begin
         descuento := 0.02;
     operacion := monto * descuento;
     total := monto - operacion;
-    gotoxy(10,2); write('El monoto es: ', monto:0:2);
+    gotoxy(10,2); write('El monto es: ', monto:0:2);
     gotoxy(10,3); write('El descuento es: ', (descuento * 100):0:1, '%');
     gotoxy(10,4); writeln('Y el total a pagar es: ',total:0:2)
 end.
