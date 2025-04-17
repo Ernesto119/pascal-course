@@ -4,7 +4,7 @@ Datos de entrada: Leer los valores de los coeficientes a,b y c:
 Determinante: d=b*b-4*a*c
 
 - Si Determinante es mayor que cero, en el resultados existen dos raises reales:
-       Imprimir: 'Existen dos raices reales: x1,x2
+       Imprimir: 'Existen dos raices reales: x1,x2'
        x1=(-b+sqrt(d)) / 2*a
        x2=(-b-sqrt(d)) / 2*a
 -  DE LO CONTRARIO
@@ -18,7 +18,7 @@ Determinante: d=b*b-4*a*c
         x1=real+imaginaria
         x2=real-imaginaria
         Imprimir 'Existen dos lraices complejas:'
-        }
+}
 
 program ecuacionDeSegundoGrado;
 
